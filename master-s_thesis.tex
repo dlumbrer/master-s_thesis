@@ -135,7 +135,7 @@ And finally, these are two of my favourite quotes:\\
 \chapter*{Abstract}
 %\addcontentsline{toc}{chapter}{Abstract} % si queremos que aparezca en el índice
 \markboth{ABSTRACT}{ABSTRACT} % encabezado
-The objective of this project is the development of a complex data visualization system in a 3D and VR environment. It has been chosen to develop a web application using the ElasticSearch tool as a database and search engine. To show these data visualizations, ThreeDC and A-FrameDC have been used as rendering engines, and since it is a web tool, the appearance and interface is focused on the use of any person with a minimum of technical knowledge; this way, the creation of these visualizations for their later analysis is done in a simple and intuitive way.
+The objective of this project is the development of a complex data visualization system in a 3D and Virtual Reality (VR) environment. It has been chosen to develop a web application using the ElasticSearch tool as a database and search engine. To show these data visualizations, ThreeDC and A-FrameDC have been used as rendering engines, and since it is a web tool, the appearance and interface is focused on the use of any person with a minimum of technical knowledge; this way, the creation of these visualizations for their later analysis is done in a simple and intuitive way.
 
 The project is in a cutting edge field and continuous research, because the data visualization is very rooted in the 2D environment, so the implementation of 3D and VR technologies is still new and with a lot of exploration margin.
 
@@ -150,7 +150,7 @@ For the development of the project, the JavaScript programming language has been
 %\addcontentsline{toc}{chapter}{Resumen} % si queremos que aparezca en el índice
 \markboth{RESUMEN}{RESUMEN} % encabezado
 
-El presente proyecto tiene como objetivo el desarrollo de un sistema complejo de visualización de datos en un entorno de 3D y VR. Se ha elegido desarrollar una aplicación web utilizando como base de datos y motor de búsqueda la herramienta ElasticSearch. Para mostrar estas visualizaciones de datos se ha utilizado ThreeDC y A-FrameDC como motores de renderización de estas, además, al tratarse de una herramienta web, el aspecto y la interfaz está enfocada al uso de cualquier persona con un mínimo de conocimientos técnicos, de esta manera, la creación de estas visualizaciones para su posterior análisis se hace de manera sencilla e intuitiva.
+El presente proyecto tiene como objetivo el desarrollo de un sistema complejo de visualización de datos en un entorno de 3D y Realidad Virtual (VR). Se ha elegido desarrollar una aplicación web utilizando como base de datos y motor de búsqueda la herramienta ElasticSearch. Para mostrar estas visualizaciones de datos se ha utilizado ThreeDC y A-FrameDC como motores de renderización de estas, además, al tratarse de una herramienta web, el aspecto y la interfaz está enfocada al uso de cualquier persona con un mínimo de conocimientos técnicos, de esta manera, la creación de estas visualizaciones para su posterior análisis se hace de manera sencilla e intuitiva.
 
 El proyecto se encuentra en un ámbito de vanguardia y contínua investigación, debido a que la visualización de datos está muy arraigada al entorno 2D, por lo que la implantación de tecnologías 3D y VR sigue siendo novedoso y de mucho margen de exploración.
 
@@ -193,7 +193,7 @@ In this chapter we will describe the problem description and introduce the proje
 \section{Problem description}
 \label{sec:probdescr}
 
-Nowadays, companies have a big amount of data (sells, products, incomes, costumers), therefore, the visualization of these displays a very important role in the business process. This data must be understandable for its subsequent analysis or usage. Our brain interprets better and quicker the information when it's received through a graphic process. Through visual communication, a bunch of complex data makes easier to understand. These are usually shown as graphics, either circular, lineal, in barcodes, etc. This project is based in the visualization of this data storage in a different way, a dashboard with different types of chars but in 3D and Virtual Reality. This way of visualization is unexploited. There aren't applications to fulfill this kind of data visualization. That's why this project would work in something innovative inside open source software engineering.
+Nowadays, companies have a big amount of data (sells, products, incomes, costumers), therefore, the visualization of these displays a very important role in the business process. This data must be understandable for its subsequent analysis or usage. Our brain interprets better and quicker the information when it's received through a graphic process. Through visual communication, a bunch of complex data makes easier to understand. These are usually shown as graphics, either circular, lineal, in barcodes, etc. This project is based in the visualization of this data storage in a different way, a dashboard with different types of chars but in 3D and Virtual Reality (VR). This way of visualization is unexploited. There aren't applications to fulfill this kind of data visualization. That's why this project would work in something innovative inside open source software engineering.
 
 There are tools like Kibana, Grafana or Freeboard that allow showing the data that come from databases from different types of visualizations and dashboards. This project will build a interface from scratch using Three.js and A-frame as 3D rendering engine and using ElasticSearch as the database.
 
@@ -210,9 +210,9 @@ This project's main aim is the development of a complex system of data visualiza
 Inside this main aim, there are a number of sub-goals:
 
 \begin{itemize}
-\item Analysis and choice of visualization's library: Study and analysis of different visualization's libraries of 3D and VR so, afterwards, a library that follows the requirements for the development of the project can be chosen. This can be reached through the creation and modification of little examples of each library according to its API's.
+\item Analysis and choice of a visualization library: Study and analysis of different visualization libraries of 3D and VR so, afterwards, a library that follows the requirements for the development of the project can be chosen. This can be reached through the creation and modification of little examples of each library according to its APIs.
 \item Analysis and choice of web development framework: research of the different frameworks to develop web applications and the choice of which fits best into the requirements and complies with the arranged functionalities. This development framework needs to allow the connection to the ElasticSearch external service, since it will be the database.
-\item API's search and development: for the project's development, it's necessary the use and development of different API's JavaScript to host all the required functionalities for the project. It will be needed a previous research of those API's and a further development of new API's to fill in those that doesn't comply with all the requirements.
+\item APIs search and development: for the project's development, it's necessary the use and development of different APIs JavaScript to host all the required functionalities for the project. It will be needed a previous research of those APIs and a further development of new APIs to fill in those that doesn't comply with all the requirements.
 \item Development of a simple and useful interface: for this platform to be easily usable, it's necessary to do a detailed development of the graphic part so any person (no matter the level of the technical knowledge), can use the application without problems. To do so, the development can be complemented with a user guide and some examples with screenshots.
 \item Definition of the platform and index objects in ElasticSearch for its later saving: in order to keep an state of the visualizations and dashboards created, it's necessary to define which kind of objects are going to be saved and a special index in ElasticSearch for this application. Inside this index, the visualizations or dashboards (which will be the objects) will be saved in types or docs. Besides, the application should be capable of create/edit this index automatically; for example, creating an index if it doesn't exist, updating documents, etc.
 \item Dashboard view and integration of VR: once the application is complete it's necessary to allow the visualization of the dashboards in different and independent URLs, this way the dashboard will be seen isolated from the application interface, therefore the data can be shown quickly without a loading process or an interaction with the interface. Also, inside this view, should be any mode capable of activate the VR to observe the dashboard with a VR device (e.g.: a smartphone).
@@ -323,38 +323,20 @@ ElasticSearch can be used in different business situations. In particular we wil
 \subsection{Basic Concepts}
 There are a few concepts that are core to ElasticSearch.
 
-\subsubsection{Near Realtime}
-ElasticSearch is a near real time search platform. What this means is there is a slight latency (normally one second) from the time you index a document until the time it becomes searchable.
-
-\subsubsection{Cluster}
-A cluster is a collection of one or more nodes (servers) that together holds your entire data and provides federated indexing and search capabilities across all nodes. A cluster is identified by a unique name which by default is "ElasticSearch". This name is important because a node can only be part of a cluster if the node is set up to join the cluster by its name.
-
-\subsubsection{Node}
-A node is a single server that is part of your cluster, stores your data, and participates in the cluster's indexing and search capabilities. Just like a cluster, a node is identified by a name which by default is a random Universally Unique IDentifier (UUID) that is assigned to the node at startup. This name is important for administration purposes where you want to identify which servers in your network correspond to which nodes in your ElasticSearch cluster.
-
-A node can be configured to join a specific cluster by the cluster name. By default, each node is set up to join a cluster named ElasticSearch which means that if you start up a number of nodes on your network and—assuming they can discover each other—they will all automatically form and join a single cluster named ElasticSearch.
-
-\subsubsection{Index}
-An index is a collection of documents that have somewhat similar characteristics. For example, you can have an index for customer data, another index for a product catalog, and yet another index for order data. An index is identified by a name (that must be all lowercase) and this name is used to refer to the index when performing indexing, search, update, and delete operations against the documents in it.
-
-In a single cluster, you can define as many indexes as you want.
-
-\subsubsection{Type}
-Within an index, you can define one or more types. A type is a logical category/partition of your index whose semantics is completely up to you. In general, a type is defined for documents that have a set of common fields. For example, let's assume you run a blogging platform and store all your data in a single index. In this index, you may define a type for user data, another type for blog data, and yet another type for comments data.
-
-\subsubsection{Document}
-A document is a basic unit of information that can be indexed. For example, you can have a document for a single customer, another document for a single product, and yet another for a single order. This document is expressed in JSON (JavaScript Object Notation) which is an ubiquitous internet data interchange format.
-
-Within an index/type, you can store as many documents as you want. Note that although a document physically resides in an index, a document actually must be indexed/assigned to a type inside an index.
-
-\subsubsection{Shards and Replicas}
-An index can potentially store a large amount of data that can exceed the hardware limits of a single node. For example, a single index of a billion documents taking up 1TB of disk space may not fit on the disk of a single node or may be too slow to serve search requests from a single node alone. To solve this problem, ElasticSearch provides the ability to subdivide your index into multiple pieces called shards. When you create an index, you can simply define the number of shards that you want. Each shard is in itself a fully-functional and independent "index" that can be hosted on any node in the cluster.
-ElasticSearch allows you to make one or more copies of your index's shards into what are called replica shards, or replicas for short. By default, each index in ElasticSearch is allocated 5 primary shards and 1 replica.
+\begin{itemize}
+    \item \textbf{Near Realtime}: this means is there is a slight latency (normally one second) from the time you index a document until the time it becomes searchable.
+    \item \textbf{Cluster}: a cluster is a collection of one or more nodes (servers) that together holds your entire data and provides federated indexing and search capabilities across all nodes.
+    \item \textbf{Node}: a node is a single server that is part of your cluster, stores your data, and participates in the cluster's indexing and search capabilities.
+    \item \textbf{Index}: an index is a collection of documents that have somewhat similar characteristics. In a single cluster, you can define as many indexes as you want.
+    \item \textbf{Type}: within an index, you can define one or more types. A type is a logical category/partition of your index whose semantics is completely up to you.
+    \item \textbf{Document}: A document is a basic unit of information that can be indexed. This document is expressed in JSON (JavaScript Object Notation) which is an ubiquitous internet data interchange format. Within an index/type, you can store as many documents as you want.
+    \item \textbf{Shards and Replicas}: ElasticSearch provides the ability to subdivide your index into multiple pieces called shards. When you create an index, you can simply define the number of shards that you want. Each shard is in itself a fully-functional and independent "index" that can be hosted on any node in the cluster. ElasticSearch allows you to make one or more copies of your index's shards into what are called replica shards, or replicas for short.
+\end{itemize}
 
 \section{A-FrameDC}
 \label{sec:aframedc}
 
-A-FrameDC is a library to create different kind of data visualizations based on A-Frame\footnote{\url{https://aframe.io/}}. According to the main page of A-Frame: A-Frame is a web framework for building virtual reality (VR) experiences. Originally from Mozilla, A-Frame was developed to be an easy but powerful way to develop VR content. As an independent open source project, A-Frame has grown to be one of the largest and most welcoming VR communities.
+A-FrameDC\footnote{\url{https://fran-aguilar.github.io/a-framedc/}} is a library to create different kind of data visualizations based on A-Frame\footnote{\url{https://aframe.io/}}. According to the main page of A-Frame: A-Frame is a web framework for building virtual reality (VR) experiences. Originally from Mozilla, A-Frame was developed to be an easy but powerful way to develop VR content. As an independent open source project, A-Frame has grown to be one of the largest and most welcoming VR communities.
 
 A-Frame is based on top of HTML, making it simple to get started. But A-Frame is not just a 3D scene graph or a markup language; the core is a powerful entity-component framework that provides a declarative, extensible, and composable structure to three.js.
 
@@ -362,11 +344,11 @@ A-Frame supports most VR headsets such as Vive, Rift, Windows Mixed Reality, Day
 
 A-FrameDC extends A-Frame, encapsulating it in another library so that the construction of 3D elements is focused on data visualization graphics and it allows the creation and interaction with them in a simple way, without having to operate directly with A-Frame. This library allows the creation of graphs of 2D lines with 2 axes, bars in 2D and 3D with 2 or 3 axes (with probability that they are stacked bars), bubbles with 3 axes and pie charts.
 
-This library has been developed by an ex-student of the URJC being his degree thesis\footnote{\url{https://fran-aguilar.github.io/a-framedc/}}.
+This library has been developed by an ex-student of the URJC being his degree thesis \cite{aframedcmemoria}.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=16cm, keepaspectratio]{img/context/aframedc.PNG}
+  \includegraphics[width=16cm, keepaspectratio]{img/context/aframedc.png}
   \caption{Example of charts with A-FrameDC}
   \label{fig:pluginhtml}
 \end{figure}
@@ -376,15 +358,15 @@ This library has been developed by an ex-student of the URJC being his degree th
 \section{ThreeDC}
 \label{sec:threedc}
 
-ThreeDC is a library to create different kind of data visualizations based on Three.js\footnote{\url{https://threejs.org/}}. According to the docs that the main developer has, Three.js is a JavaScript library; the aim of the project is to create an easy to use, lightweight, 3D library. The library provides Canvas 2D, SVG, CSS3D and WebGL renderers. It can be defined as "a library to make WebGL easier". 
+ThreeDC\footnote{\url{https://adrianalonsoba.github.io/web-ThreeDC/}} is a library to create different kind of data visualizations based on Three.js\footnote{\url{https://threejs.org/}}. According to the docs that the main developer has, Three.js is a JavaScript library; the aim of the project is to create an easy to use, lightweight, 3D library. The library provides Canvas 2D, SVG, CSS3D and WebGL renderers. It can be defined as "a library to make WebGL easier". 
 WebGL is an API. It lets you access a computer's specialised graphics hardware using JavaScript, and render the output to a webpage in a regular old <canvas> element. Before WebGL, access to that specialised hardware was only really doable with desktop software. The browser was stuck in 2D town (excluding third-party plug-ins such as Adobe Flash).
 ThreeDC extends by default the API of Three.js encapsulating it in a new API focused on the creation of 3D objects related to data visualization. This way, this type of 3D graphics can be built easily without technical knowledge of Three.js or WebGL. This library allows the creation of graphs of 2D lines with 2 axes, bars in 2D and 3D with 2 or 3 axes (with the probability that they are stacked bars), bubbles with 3 axes and pie charts.
 
-This library has been developed by an ex-student of the URJC being his degree thesis\footnote{\url{https://adrianalonsoba.github.io/web-ThreeDC/}}.
+This library has been developed by an ex-student of the URJC being his degree thesis \cite{Threedcmemoria}.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=16cm, keepaspectratio]{img/context/threedc.PNG}
+  \includegraphics[width=16cm, keepaspectratio]{img/context/threedc.png}
   \caption{Example of charts with ThreeDC}
   \label{fig:pluginhtml}
 \end{figure}
@@ -463,6 +445,27 @@ For example:
 \end{lstlisting}
 
 The installation of the necessary modules to show the visualization will be done by npm, building its own "package.json" inside the application directory.  Once the file is built indicating the modules to install, they will be downloaded and installed with the statement "npm install" into a "node\_modules" folder for its later use.
+
+\section{Docker}
+\label{sec:docker}
+The Linux container has become a tool that helps developers and system administrators to test applications or systems in a secure environment equal to the production environment, reducing testing times and adaptations to hardware changes from the test environment to the production. With Docker's technology we can virtualize a Linux with all the applications that we need within our Linux operating system, to "package" it and deploy it in any other Linux by only introducing a couple of commands.
+
+Docker is an open source project with which we can easily create "containers". These Docker containers could be defined as lightweight virtual machines, less demanding with the chips and memories of the equipment where they will be executed.
+
+\subsection{Containers}
+
+They are like a directory, they contain everything necessary for an application to work without accessing a repository external to the container. Each of these is a secure application platform and isolated from the rest that we can find or deploy on the same host machine.
+
+
+\subsection{Images}
+
+The Docker image could be understood as an OS with installed applications (for example, an OpenSUSE with an office suite). On this basis we can start adding applications that we will need on another computer where we intend to use the image. In addition, Docker offers us a very simple way to update the images we have created, as well as a simple method to create new images. Images are usually defined in "Dockerfile" files with their own syntax.
+
+\subsection{Repositories}
+
+Also known as Docker Registry, they contain images created by users and available to the public. We can find public repositories and totally free or private repositories where we will have to buy the images that we need. These registries allow to develop or to deploy applications in a simple and fast form in base to templates, reducing the time of creation or implementation of applications or systems.
+
+
 
 \section{Other Packages Used}
 \label{sec:otherspackage}
@@ -626,7 +629,7 @@ Once we have defined the files structure and developed the visual structure, the
 \item First visualizations without data
 \item Integration with ElasticSearch
 \item Development of the control menu
-\item API's in order to query easy ElasticSearch
+\item APIs in order to query easy ElasticSearch
 \end{enumerate}
 
 \subsection{Visualizations without data}
@@ -666,7 +669,7 @@ With this instantiated service, we can include the client to ElasticSearch in an
 
 We can only make queries to ElasticSearch using this service and the JavaScript API that they have published \footnote{\url{https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference-5-6.html}}. The next problem was the construction of this query, the part inside the body, where the aggregations that are going to be searched in ElasticSearch are defined.
 
-To solve this problem the bodybuilder\footnote{\url{https://bodybuilder.js.org/}} library has been used to make these aggregations and build the object that goes into the query in a simple way. Anyway, we discovered that the code is hard and complex to use the library directly, so we decided to create from scratch two internal API's, genES and buildESDS, to make the calls to ElasticSearch and to create the object that goes inside the query using bodybuilder.
+To solve this problem the bodybuilder\footnote{\url{https://bodybuilder.js.org/}} library has been used to make these aggregations and build the object that goes into the query in a simple way. Anyway, we discovered that the code is hard and complex to use the library directly, so we decided to create from scratch two internal APIs, genES and buildESDS, to make the calls to ElasticSearch and to create the object that goes inside the query using bodybuilder.
 
 \subsubsection{buildESDS}
 This API is located in the \textit{js/} folder and it is basically responsible for saving the selected aggregations, it consists of a few methods, to add metrics and buckets, to build that object (data structure) and to return it.
@@ -677,7 +680,7 @@ This API is in the \textit{js/} folder and this API is responsible for creating 
 
 \subsection{Development of the control menu}
 
-Once the API's and everything necessary to make requests to ElasticSearch have been created, the next step is to create a menu in the control area in order to configure the data that we want to visualize as well as what kind of visualization we want. The menu has been developed using bootstrap elements to be useful and to have a simple interface and that anyone can understand. Therefore, steps similar to those of the Kibana application have been defined to build a visualization:
+Once the APIs and everything necessary to make requests to ElasticSearch have been created, the next step is to create a menu in the control area in order to configure the data that we want to visualize as well as what kind of visualization we want. The menu has been developed using bootstrap elements to be useful and to have a simple interface and that anyone can understand. Therefore, steps similar to those of the Kibana application have been defined to build a visualization:
 
 \begin{enumerate}
     \item Index and type selection: the first thing is to choose on what index and type of our ElasticSearch we will want to show the data, there will be two dropdowns and we will have to choose first the index to be able to visualize something in de type. To continue, there is also a button called "Show Mapping" to optionally see the mapping that the chosen index has:
@@ -1617,9 +1620,9 @@ Interesting pages:
 \label{chap:conclusions}
 The aim of this project was the development of a complex system of data visualization in 3D and VR. Watching the result of the project, we can say we have fulfilled the main aim successfully. Besides, all the sub-goals have also been fulfilled:
 
-It has been created a web application that allows to visualize the data in a the 3D and VR environment. This application was developed in a very used and consolidated framework, AngularJS. Also, different libraries of visualization have been studied and, after choosing the most appropriate, it has been integrated in it with the aim of use it in a visualization. Later, in the middle of the development, another visualization library was integrated and it became the main visualization library. In order to fulfill all the functionality, several API's have been studied and developed, extending them or creating them from scratch. The interface was developed in a useful way in order to make it simple and accessible to anybody with little technical knowledge. Moreover, in order to keep the state of the application, ElasticSearch have been studied and selected as a database, making indices on it where the visualization and dashboards of the application are saved. Other of the fulfilled sub-goals was the integration of VR, this was accomplished using the VR mode of A-Frame and tried with an smartphone. To finish, it has been created two docker images in order to deploy it in a container and to replicate it in any machine, making the deployment easy and accessible.\\
+It has been created a web application that allows to visualize the data in a 3D and VR environment. This application was developed in a much used and consolidated framework, AngularJS. Also, different libraries of visualization have been studied and, after choosing the most appropriate, it has been integrated in it with the aim of use it in a visualization. Later, in the middle of the development, another visualization library was integrated and it became the main visualization library. In order to fulfill all the functionality, several APIs have been studied and developed, extending them or creating them from scratch. The interface was developed in a useful way in order to make it simple and accessible to anybody with little technical knowledge. Moreover, in order to keep the state of the application, ElasticSearch have been studied and selected as a database, making indices on it where the visualization and dashboards of the application are saved. Other of the fulfilled sub-goals was the integration of VR, this was accomplished using the VR mode of A-Frame and tried with an smartphone. To finish, it has been created two docker images in order to deploy it in a container and to replicate it in any machine, making the deployment easy and accessible.\\
 
-The things that I've put more effort in is in the research of information of the JavaScript API's, the development of the entire app ant the integration of ElasticSearch. VBoard is an app made it from scratch, so it had an interface definition, a structure definition, and more things that a research was more than necessary. So the entire development has been a great challenge. I'm an active contribuitor of the ElasticSearch community, developing several plugins for its platform (as my latest degree thesis), so many people knows VBoard and tried it, it expect that this amount of people will be increased as times goes by, so the improvement of the interface was another challenge and it has more work.
+The things that I've put more effort in is in the research of information of the JavaScript APIs, the development of the entire app ant the integration of ElasticSearch. VBoard is an app made it from scratch, so it had an interface definition, a structure definition, and more things that a research was more than necessary. So the entire development has been a great challenge. I'm an active contribuitor of the ElasticSearch community, developing several plugins for its platform (as my latest degree thesis), so many people knows VBoard and tried it, it expect that this amount of people will be increased as times goes by, so the improvement of the interface was another challenge and it has more work.
 
 \section{Application of lessons learned}
 \label{sec:aplication}
@@ -1675,67 +1678,39 @@ This project isn't finished yet, due to the "hit" of my latest project, there ar
 % BIBLIOGRAFIA %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Bibliography}
-\label{sec:bib}
+\begin{thebibliography}{X}
+\bibitem{ElJas} \textsc{Marijn Haverbeke},
+\textit{Eloquent JavaScript}, No Starch Press, 2014
 
-\begin{enumerate}
-\item \underline{\textbf{JavaScript}}:
+\bibitem{JSTut} \textsc{w3schools},
+\textit{JavaScript web tutorials}, \url{https://www.w3schools.com/js/} (last visited on Nov 29, 2018)
 
- Marijn Haverbeke, \textit{Eloquent JavaScript}. No Starch Press, 2014
+\bibitem{HTML5Std} \textsc{Steve Faulkner, Arron Eicholz, Travis Leithead, et al.} as Editors, \textit{HTML 5.2 Standard}, W3C Recommendation, 14 December 2017
 
-Tutorials: \url{http://www.w3schools.com/js/}
+\bibitem{HTML5Tut} \textsc{w3schools},
+\textit{HTML5 web tutorials}, \url{https://www.w3schools.com/html/html5_intro.asp} (last visited on Nov 29, 2018)
 
-\item \underline{\textbf{HTML5}}:
+\bibitem{Angular} \textsc{Shyam Seshadri} and \textsc{Brad Green}, \textit{AngularJS: Up and Running}, O’Reilly Media, 2014
 
-Standard: \url{https://www.w3.org/TR/html5/}
+\bibitem{AngularDev} \textsc{AngularJS},
+\textit{Developer web guide}, \url{https://docs.angularjs.org/guide} (last visited on Nov 29, 2018)
 
-Tutorials: \url{http://www.w3schools.com/html/html5_intro.asp}
+\bibitem{ElasticSearch} \textsc{Radu Gheorghe}, \textsc{Matthew Lee Hinman} and \textsc{Roy Russo}, \textit{ElasticSearch in Action},  Manning Publications, 2015
 
-\item \underline{\textbf{Web theoretical reference}}: 
+\bibitem{ESguide} \textsc{Elastic},
+\textit{ElasticSearch user guide}, \url{https://www.elastic.co/guide/en/elasticsearch/reference/5.6/index.html} (last visited on Nov 29, 2018)
 
-\url{https://en.wikipedia.org/wiki/Main_Page}
+\bibitem{Threedcmemoria} \textsc{Adri\'an Alonso Barriuso}, \textit{webGL Based 3D Dashboard for Tracking Software
+Development},  Universidad Rey Juan Carlos, 2015/2016
 
-\item \underline{\textbf{AngularJS}}:
+\bibitem{aframedcmemoria} \textsc{Francisco Aguilar Hidalgo}, \textit{Virtual Reality Data Dashboard},  Universidad Rey Juan Carlos, 2016/2017
 
- Shyam Seshadri & Brad Green, \textit{AngularJS: Up and Running}. O'Reilly Media, 2014
+\bibitem{Dockerbook} \textsc{Srdjan Grubor}, \textit{Deployment with Docker}, Packt, 2017
 
-Main page: \url{https://angularjs.org/}
+\bibitem{Dockerguide} \textsc{Docker},
+\textit{Docker user guide}, \url{https://docs.docker.com/v17.09/get-started/} (last visited on Nov 29, 2018)
 
-Developer Guide: \url{https://docs.angularjs.org/guide}
-
-Repository: \url{https://github.com/angular/angular.js}
-
-\item \underline{\textbf{ElasticSearch}}: 
-
- Radu Gheorghe, Matthew Lee Hinman, Roy Russo. \textit{ElasticSearch in Action}. Manning Publications, 2015
-
-Product: \url{https://www.elastic.co/products/ElasticSearch}
-
-User Guide: \url{https://www.elastic.co/guide/en/ElasticSearch/reference/5.6/index.html}
-
-Repository: \url{https://github.com/elastic/ElasticSearch}
-
-\item \underline{\textbf{A-FrameDC}}:
-
-Main Page: \url{https://fran-aguilar.github.io/a-framedc/}
-
-Repository: \url{https://github.com/fran-aguilar/a-framedc}
-
-\item \underline{\textbf{ThreeDC}}:
-
-Main Page: \url{https://adrianalonsoba.github.io/web-ThreeDC/}
-
-Repository: \url{https://github.com/adrianalonsoba/ThreeDC}
-
-\item \underline{\textbf{Docker}}:
-
-Srdjan Grubor, \textit{Deployment with Docker}. Packt, 2017
-
-Main Page: \url{https://www.docker.com/}
-
-Docker-compose page: \url{https://docs.docker.com/compose/}
-
-\end{enumerate}
+\end{thebibliography}
 
 % Las siguientes dos instrucciones es todo lo que necesitas
 % para incluir las citas en la memoria
